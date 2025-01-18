@@ -297,8 +297,8 @@
       resultItem.setAttribute("data-duration", milliseconds);
       resultItem.setAttribute("data-moves", moveCount);
       resultItem.innerHTML = `
-        Süre: <span class="duration">${minutes}:${displaySeconds}.${displayMilliseconds}</span>, 
-        Hamle: <span class="moves">${moveCount}</span>`;
+        Time: <span class="duration">${minutes}:${displaySeconds}.${displayMilliseconds}</span>, 
+        Move: <span class="moves">${moveCount}</span>`;
       resultsList.appendChild(resultItem);
 
       highlightBestResults();
